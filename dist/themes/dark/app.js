@@ -38,7 +38,7 @@ function init() {
     var pan_bar = `
                     <div class="titleBar_item titleBar_pan">
                         <a class="titleBar_link panBar_link"><i></i></a>
-                        <div class="menu_list titleBar_exhibit"><p>Netdisc Drive</p>`;
+                        <div class="menu_list titleBar_exhibit"><p>animecenter</p>`;
     names.forEach((name, idx) => {
         pan_bar += `<a  class="menu_list_item"  href="/${idx}:/">${name}</a>`;
     });
