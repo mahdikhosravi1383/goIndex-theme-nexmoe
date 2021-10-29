@@ -492,7 +492,8 @@ function append_files_to_list(path, files) {
 
     // 是第1页时，去除横向loading条
     $list.html(($list.data('curPageIndex') == '0' ? '' : $list.html()) + html);
-    // 是最后一页时，统计并显示出总项目数
+    // 是最后一页时，统计并显示出总
+    目数
     if (is_lastpage_loaded) {
         $('#count').removeClass('mdui-hidden').find('.number').text($list.find('li.mdui-list-item').length);
     }
@@ -524,7 +525,7 @@ function render_search_result_list() {
    <div class="mdui-row"> 
     <ul id="list" class="mdui-list"> 
     </ul> 
-    <div id="count" class="mdui-hidden mdui-center mdui-text-center mdui-m-b-3 mdui-typo-subheading mdui-text-color-blue-grey-500">共 <span class="number"></span> 项</div>
+    <div id="count" class="mdui-hidden mdui-center mdui-text-center mdui-m-b-3 mdui-typo-subheading mdui-text-color-blue-grey-500">共 <span class="number"></span> item</div>
    </div>
   `;
     $('#content').html(content);
