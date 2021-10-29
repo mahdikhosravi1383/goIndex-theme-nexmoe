@@ -1,4 +1,4 @@
-// 在head 中 加载 必要静态
+// 在head 中 加载 必要静态ئحححححرقققققققققققققققققققققققققققققققققققققققققققققققققققققققققققققققققبرسدحقرهدبرذحبذقعبب
 document.write('<link rel="stylesheet" href="' + ThemeConfig.url + '/dist/css/app.6461726b.css">');
 // Dplayer
 document.write('<script src="//cdn.jsdelivr.net/npm/hls.js@1.0.7/dist/hls.min.js"></script>');
